@@ -1,0 +1,13 @@
+.Rhistory
+.RData
+.Ruserdata
+.DS_Store
+*.Rproj.user
+.Rproj.user/
+rsconnect/
+.shiny_pkgs/
+results.csv
+*.html
+*_cache/
+.Renviron
+.Rprofile.local
