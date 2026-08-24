@@ -1,7 +1,6 @@
 # IgAN-Hybrid — 本地浏览器界面（Phase 1B）
 # 启动：Rscript -e 'shiny::runApp(".", launch.browser=TRUE)'
 library(shiny)
-library(shinyglass)
 
 source("borrowing_calculator.R", local = FALSE)
 
@@ -26,7 +25,6 @@ verdict_row <- function(label, value) {
 }
 
 ui <- fluidPage(
-  theme = glass_theme(preset = "light", intensity = 0.35),
   titlePanel("IgAN-Hybrid Calculator"),
   sidebarLayout(
     sidebarPanel(
