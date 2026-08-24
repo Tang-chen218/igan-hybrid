@@ -4,9 +4,9 @@ Decision-support calculator for hybrid IgA nephropathy (IgAN) trial designs that
 augment the concurrent control arm with external control data via elastic-prior
 borrowing (Jiang, Nie, Yuan, *Biometrics* 2023).
 
-Companion tool to:
+Companion tool to the manuscript:
 
-> *Reducing Placebo Enrollment in IgA Nephropathy Trials by Augmenting the Concurrent Control With External Control Data* (JASN, major revision)
+> *Reducing Placebo Enrollment in IgA Nephropathy Trials by Augmenting the Concurrent Control With External Control Data*
 
 Given sample size, allocation ratio, treatment effect, within-trial SD, and an
 external control pool, the tool returns power, type I error, and placebo reduction.
