@@ -16,7 +16,7 @@ It is a planning aid, not a guarantee of any fixed power target.
 
 - R (>= 4.0)
 - CLI / functions: base R only
-- Browser UI: [`shiny`](https://cran.r-project.org/package=shiny)
+- Browser UI: [`shiny`](https://cran.r-project.org/package=shiny), [`shinyglass`](https://github.com/ericrayanderson/shinyglass) (light theme in `app.R`)
 
 ## Files
 
@@ -83,5 +83,17 @@ r$placebo_reduction
 
 ## Status
 
-- CLI and local Shiny UI: available
-- Hosted shinyapps.io URL (for the manuscript Data Availability link): pending
+- CLI and local Shiny UI: available (light `shinyglass` theme)
+- Code: https://github.com/Tang-chen218/igan-hybrid
+- Planned hosted app (shinyapps account `pkufh-igan`, app name **`igan-hybrid-calculator`**):
+
+```r
+rsconnect::deployApp(
+  appDir = ".",
+  appName = "igan-hybrid-calculator",
+  appTitle = "IgAN-Hybrid Calculator",
+  forceUpdate = TRUE
+)
+```
+
+Expected URL: `https://pkufh-igan.shinyapps.io/igan-hybrid-calculator/`
